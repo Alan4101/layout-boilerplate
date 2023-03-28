@@ -1,6 +1,6 @@
 // Fonts 
 
-$mainFontFamily: ''
+$mainFontFamily: '';
 
 // Breackpoints
 $grid-breackpoints: (
@@ -18,4 +18,6 @@ $container-max-width: (
     lg: 960px,
     xl: 1140px,
     xxl: 1200px,
-)
+);
+
+$bodyColor: #ccc;
