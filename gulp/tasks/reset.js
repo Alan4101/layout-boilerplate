@@ -1,5 +1,3 @@
-import {deleteAsync} from "del"
+import { deleteAsync } from "del";
 
-export const reset = () => {
-    return deleteAsync(['dist'])
-}
+export const reset = () => deleteAsync(["dist"]);
